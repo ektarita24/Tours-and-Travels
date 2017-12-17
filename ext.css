@@ -1,0 +1,67 @@
+body
+{
+	background-image:url("images1.jpg");
+	width:100%
+}
+.textb
+{
+	text-align: right;
+	color: black;
+	font-size:3;
+	font-family:"Monotype Corsiva";
+}
+table
+{
+	display: table;
+    	border-collapse: separate;
+	border-spacing: 3px;
+	font-family:"Times New Roman";
+	font-size="5px";
+}
+.describe
+{
+	font-family:"Monotype Corsiva";
+	font-size:20px;
+}
+.Head
+{
+	text-align:center;
+	background-color : #D0A020;
+	color:black;
+                font-family:"comic sans ms";
+	font-size:30pt;	
+	text-shadow: 5px 5px 5px #F0E890;
+}
+ul{
+	list-style-type: none;
+   	margin: 0;
+    	padding: 0;
+	overflow: hidden;
+}
+li {
+	display: block;
+                width: 100%;
+                font-weight: bold;
+                text-align: center; 
+	padding: 10px;
+	font-family:"comic sans ms";
+    	text-decoration: none;
+    	text-transform: uppercase;
+    	float: left;
+}
+a:link {
+    	color: #D0A020;
+}
+a:visited {
+    	color: #D0A020;
+}
+a:hover{
+	color:#F0E890 ;
+	background-color: #D0A020;
+	border-radius: 0px;	
+	font-size="110%"
+               
+}
+a:active {
+    	color:#F0E890 ;
+}

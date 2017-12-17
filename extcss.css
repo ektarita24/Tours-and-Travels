@@ -1,0 +1,107 @@
+.Head
+{
+	text-align:center;
+	background-color : #D0A020;
+}
+.describe
+{
+	font-family:"Monotype Corsiva";
+	font-size:20pt;
+}
+h1
+{
+       	 color:black;
+       	 font-family:"comic sans ms";
+	 font-size:30pt;	
+	text-shadow: 5px 5px 5px #F0E890;
+}
+h5,h4,h3,h2
+{
+	color:black;
+       	 font-family:"comic sans ms";
+}
+.place
+{
+	font-family:"comic sans ms";
+	font-size:30pt;
+	font-weight:bold;
+	border-style: groove;
+	border-color: #D0A020;
+	border-width: 8px;
+    	border-radius: 25px;
+}
+.days
+{
+	font-size:15pt;
+	font-family:"Monotype Corsiva";
+	
+}
+.footer
+{
+	background-color : #D0A020;
+	text-align:center;
+	border-style: solid;
+	border-color: #D0A020;
+}
+.button
+{
+	background-color: #F0E890;
+	border-color: black;
+	border-style: solid;
+	border-width: 0px;
+    	border-radius: 10px;
+	font-size: 20px;
+	
+}
+
+a{
+text-decoration: none;
+}
+a:link {
+    color:black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: black;
+background-color:#997A00;
+font-size:200%;
+}
+a:active {
+    color: #0000FF;
+}
+
+
+#div1 {
+    -webkit-backface-visibility: visible;  
+    backface-visibility: visible;
+ width:100px;
+    height:100px;
+    background:#D0A020;
+    position:relative;
+    border:1px solid #000000;
+    -webkit-animation:mymove 6s infinite; 
+    animation:mymove 6s infinite;
+}
+
+
+@-webkit-keyframes mymove {
+    from {-webkit-transform: rotateX(0deg);}
+    to {-webkit-transform: rotateX(360deg);}
+}
+
+@keyframes mymove {
+    from {transform: rotateX(0deg);}
+    to {transform: rotateX(360deg);}
+}
+
+span {
+    float: left;
+    width: 0.7em;
+    font-size: 400%;
+    font-family: algerian, courier;
+    line-height: 80%;
+}
+.left{float:left}
+.right{float:right}

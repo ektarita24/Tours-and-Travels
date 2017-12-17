@@ -1,0 +1,49 @@
+.Head
+{
+	text-align:center;
+	background-color : #D0A020;
+}
+h1
+{
+       	 color:black;
+       	 font-family:"comic sans ms";
+	 font-size:30pt;	
+	text-shadow: 5px 5px 5px #F0E890;
+}
+
+.footer
+{
+	background-color : #D0A020;
+	text-align:center;
+	border-style: solid;
+	border-color: #D0A020;
+}
+.button
+{
+	background-color: #F0E890;
+	border-color: black;
+	border-style: solid;
+	border-width: 0px;
+    	border-radius: 10px;
+	font-size: 20px;
+	
+}
+
+a{
+text-decoration: none;
+}
+a:link {
+    color: #FF0000;
+}
+a:visited {
+    color: black;
+}
+a:hover 
+{
+    color: #FF00FF;
+ background-color:#997A00;
+    font-size:200%;
+}
+a:active {
+    color: #0000FF;
+}
